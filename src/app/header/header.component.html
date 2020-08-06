@@ -1,0 +1,12 @@
+<div class="main-header">
+    <div class="text-center white-font-color giphy-title">Gif Search</div>
+    <div class="search-div text-center margin-top-1">
+        <input type="text" autofocus class="search-input border-none giphy-custom-height" placeholder="What are you looking for?" [(ngModel)]="searchValue">
+        <select class="search-dropdown border-none giphy-custom-height" disabled>
+            <option value="Show All">Show All</option>
+        </select>
+        <button type="button" class="search-button border-none giphy-custom-height cursor-pointer" (click)="searchImage()"><i class="fa fa-search"></i></button>
+    </div>
+    <div class="text-center white-font-color margin-top-1">You can search any gif with our search</div>
+    <div class="text-center white-font-color margin-top-1">Everything you need for your creative projects ,websites,banners,presentations,magazines and advertising</div>
+</div>

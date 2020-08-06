@@ -1,0 +1,8 @@
+<div class="image-container">
+    <div class="image-div" *ngIf="!noResultFlag && imageData.length > 0">
+        <img src="{{image.images.downsized.url}}" class="image-alignment" *ngFor="let image of imageData">
+    </div>
+    <div *ngIf="noResultFlag" class="text-center no-image-div">
+        {{message}}
+    </div>
+</div>

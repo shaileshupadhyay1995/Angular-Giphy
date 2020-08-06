@@ -1,0 +1,11 @@
+.giphy-header {
+    background: linear-gradient(to bottom, #cc3300 3%, #e26400 98%);
+    height: 200px;
+}
+.giphy-content {
+    background-color: rgb(247,247,247);
+    height: calc(100vh - 400px);
+}
+.giphy-footer {
+    height: 200px;
+}

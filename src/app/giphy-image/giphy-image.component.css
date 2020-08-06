@@ -1,0 +1,15 @@
+.image-container {
+    height: calc(100vh - 400px);
+    overflow-y: auto;
+}
+.image-div {
+    margin: 2%;
+}
+.no-image-div {
+    margin: 7%;
+}
+.image-alignment {
+    height: 200px;
+    margin: 1% 0 0 1%;
+    width: 32.33%;
+}
